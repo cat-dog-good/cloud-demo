@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: cloud-demo1
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/qill7
+    username: root
+    password: zyj313854
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
