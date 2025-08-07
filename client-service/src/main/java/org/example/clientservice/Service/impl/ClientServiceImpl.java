@@ -1,7 +1,7 @@
 package org.example.clientservice.Service.impl;
 
 
-import org.example.clientservice.Mapper.ClientMapper;
+import org.example.clientservice.mapper.ClientMapper;
 import org.example.clientservice.POJO.Client;
 import org.example.clientservice.Service.ClientService;
 import org.springframework.beans.factory.annotation.Autowired;
