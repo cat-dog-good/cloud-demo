@@ -2,8 +2,8 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="org.example.clientservice.mapper.OrderMapper">
-    <select id="getById" resultType="org.example.clientservice.POJO.Order">
+<mapper namespace="org.example.orderservice.mapper.OrderMapper">
+    <select id="getById" resultType="org.example.orderservice.POJO.Order">
         select * from ordertable where id = #{id}
     </select>
 </mapper>

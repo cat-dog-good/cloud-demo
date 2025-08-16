@@ -1,11 +1,9 @@
-package org.example.clientservice.controller;
+package org.example.orderservice.controller;
 
 import lombok.extern.slf4j.Slf4j;
-import org.example.clientservice.POJO.Client;
-import org.example.clientservice.POJO.Order;
-import org.example.clientservice.POJO.Result;
-import org.example.clientservice.Service.ClientService;
-import org.example.clientservice.Service.OrderService;
+import org.example.orderservice.POJO.Order;
+import org.example.orderservice.POJO.Result;
+import org.example.orderservice.Service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

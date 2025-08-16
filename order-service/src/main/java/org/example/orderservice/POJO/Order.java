@@ -1,4 +1,4 @@
-package org.example.clientservice.POJO;
+package org.example.orderservice.POJO;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

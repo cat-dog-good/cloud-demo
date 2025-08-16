@@ -1,7 +1,7 @@
-package org.example.clientservice.mapper;
+package org.example.orderservice.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
-import org.example.clientservice.POJO.Order;
+import org.example.orderservice.POJO.Order;
 
 @Mapper
 public interface OrderMapper {
