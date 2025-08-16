@@ -21,11 +21,11 @@ public class ClientController {
 
     //根据id查询员工信息
     @GetMapping("{id}")
-    public Result getById(@PathVariable Integer id){
+    public Client getById(@PathVariable Integer id){
         log.info("根据id查询员工信息:{}",id);
 
         Client emp = ClientService.getById(id);
-        return Result.success(emp);
+        return emp;
     }
 
 }
