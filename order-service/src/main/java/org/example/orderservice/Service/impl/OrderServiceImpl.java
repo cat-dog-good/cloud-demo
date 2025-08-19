@@ -25,7 +25,7 @@ public class OrderServiceImpl implements OrderService {
         //1.查询订单
         Order order = orderMapper.getById(id);
         //2利用restTemplate发送http请求，查询用户
-        String url = "http://127.0.0.1:8080/qill7/client/"+order.getClientID();
+        String url = "http://CLIENTSERVICE/qill7/client/"+order.getClientID();
         Client client = restTemplate.getForObject(url, Client.class);
         order.setClient(client);
         return order;
